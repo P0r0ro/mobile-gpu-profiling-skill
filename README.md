@@ -73,7 +73,8 @@ The Arm and Qualcomm tools are not included. Download them from the vendors unde
 ## Install as a Claude Code skill
 
 ```bash
-git clone <this repo> && ln -s "$PWD/<repo>/mobile-gpu-profiling" ~/.claude/skills/mobile-gpu-profiling
+git clone https://github.com/P0r0ro/mobile-gpu-profiling-skill.git
+ln -s "$PWD/mobile-gpu-profiling-skill/mobile-gpu-profiling" ~/.claude/skills/mobile-gpu-profiling
 ```
 Restart Claude Code. Use `/mobile-gpu-profiling`, or ask things like "is the GPU fragment-bound?"
 or "which shader is the most expensive on the Note 9?".
